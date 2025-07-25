@@ -1,73 +1,111 @@
-[01:57:50] [main/INFO]: Loading Minecraft 1.21.6 with Fabric Loader 0.16.14
-[01:57:51] [main/INFO]: Loading 4 mods:
+[00:39:20] [main/INFO]: Loading Minecraft 1.21.6 with Fabric Loader 0.16.14
+[00:39:22] [main/INFO]: Loading 36 mods:
+	- c2me 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-base 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-client-uncapvd 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-fixes-general-threading-issues 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-notickvd 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-allocs 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-chunkio 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-dfc 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-math 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-scheduling 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-worldgen-general 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-opts-worldgen-vanilla 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-rewrites-chunk-serializer 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-rewrites-chunk-system 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-rewrites-chunkio 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-server-utils 0.3.4+beta.1.0+1.21.7
+	   |-- c2me-threading-lighting 0.3.4+beta.1.0+1.21.7
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
 	- fabricloader 0.16.14
 	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
 	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.17.0+mc1.21.6
 	- minecraft 1.21.6
-[01:57:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MC-Hardcore/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:57:57] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:57:59] [main/INFO]: Loaded 1407 recipes
-[01:57:59] [main/INFO]: Loaded 1520 advancements
-[01:57:59] [Server thread/INFO]: Starting minecraft server version 1.21.6
-[01:57:59] [Server thread/INFO]: Loading properties
-[01:57:59] [Server thread/INFO]: Default game type: SURVIVAL
-[01:57:59] [Server thread/INFO]: Generating keypair
-[01:58:00] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:58:00] [Server thread/INFO]: Using epoll channel type
-[01:58:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:58:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:58:00] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:58:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:58:00] [Server thread/INFO]: Preparing level "world"
-[01:58:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[01:58:04] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[01:58:05] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[01:58:05] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[01:58:06] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[01:58:06] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[01:58:06] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[01:58:07] [Worker-Main-1/INFO]: Preparing spawn area: 51%
-[01:58:07] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[01:58:08] [Worker-Main-3/INFO]: Preparing spawn area: 51%
-[01:58:08] [Server thread/INFO]: Time elapsed: 8429 ms
-[01:58:08] [Server thread/INFO]: Done (8.735s)! For help, type "help"
-[01:58:20] [Server thread/INFO]: Il_Duko_lI[/127.111.238.159:60067] logged in with entity id 1 at (-4.5, 77.0, 4.5)
-[01:58:20] [Server thread/INFO]: Il_Duko_lI joined the game
-[01:58:51] [Server thread/INFO]: Chimu723[/127.5.100.229:45325] logged in with entity id 515 at (5.5, 72.0, 4.5)
-[01:58:51] [Server thread/INFO]: Chimu723 joined the game
-[02:02:38] [Server thread/INFO]: Chimu723 has made the advancement [Stone Age]
-[02:02:46] [Server thread/INFO]: Il_Duko_lI has made the advancement [Stone Age]
-[02:03:28] [Server thread/INFO]: Il_Duko_lI has made the advancement [Getting an Upgrade]
-[02:04:05] [Server thread/INFO]: Chimu723 has made the advancement [Getting an Upgrade]
-[02:09:15] [Server thread/INFO]: Il_Duko_lI has made the advancement [Monster Hunter]
-[02:12:32] [Server thread/INFO]: Il_Duko_lI has made the advancement [Sweet Dreams]
-[02:12:36] [Server thread/INFO]: Chimu723 has made the advancement [Sweet Dreams]
-[02:19:09] [Server thread/INFO]: Chimu723 has made the advancement [Acquire Hardware]
-[02:19:20] [Server thread/INFO]: Chimu723 has made the advancement [Isn't It Iron Pick]
-[02:19:29] [Server thread/INFO]: Chimu723 has made the advancement [Suit Up]
-[02:24:20] [Server thread/INFO]: Il_Duko_lI has made the advancement [Acquire Hardware]
-[02:25:02] [Server thread/INFO]: Il_Duko_lI has made the advancement [Isn't It Iron Pick]
-[02:25:57] [Server thread/INFO]: Il_Duko_lI has made the advancement [Suit Up]
-[02:27:10] [Server thread/INFO]: Il_Duko_lI has made the advancement [Hot Stuff]
-[02:29:30] [Server thread/INFO]: Chimu723 has made the advancement [Not Today, Thank You]
-[02:29:31] [Server thread/INFO]: Chimu723 has made the advancement [Monster Hunter]
-[02:30:27] [Server thread/INFO]: Il_Duko_lI has made the advancement [Sneak 100]
-[02:30:56] [Server thread/INFO]: Chimu723 has made the advancement [Sneak 100]
-[02:31:47] [Server thread/INFO]: Il_Duko_lI has made the advancement [Diamonds!]
-[02:35:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
-[02:37:08] [Server thread/INFO]: Chimu723 has made the advancement [Diamonds!]
-[02:45:40] [Server thread/INFO]: The time is 58179
-[02:50:53] [Server thread/INFO]: Chimu723 has made the advancement [What a Deal!]
-[02:54:47] [Server thread/INFO]: Il_Duko_lI lost connection: Disconnected
-[02:54:47] [Server thread/INFO]: Il_Duko_lI left the game
-[02:54:53] [Server thread/INFO]: Chimu723 lost connection: Disconnected
-[02:54:53] [Server thread/INFO]: Chimu723 left the game
-[02:55:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
+	- noisium 2.7.0+mc1.21.6
+[00:39:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/MC-Hardcore/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:39:22] [main/INFO]: Compatibility level set to JAVA_16
+[00:39:22] [main/INFO]: Compatibility level set to JAVA_17
+[00:39:22] [main/INFO]: Compatibility level set to JAVA_21
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[00:39:22] [main/INFO]: Global Executor Parallelism: 3 configured, 3 evaluated, 3 default evaluated
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:39:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[00:39:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[00:39:22] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[00:39:22] [main/INFO]: Loaded configuration file for Lithium: 160 options available, 0 override(s) found.
+[00:39:23] [main/WARN]: Error loading class: net/fabricmc/fabric/impl/base/event/ArrayBackedEvent (java.lang.ClassNotFoundException: net/fabricmc/fabric/impl/base/event/ArrayBackedEvent)
+[00:39:23] [main/WARN]: @Mixin target net.fabricmc.fabric.impl.base.event.ArrayBackedEvent was not found c2me-base.mixins.json:access.fapi.IArrayBackedEvent from mod c2me-base
+[00:39:23] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[00:39:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:39:30] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[00:39:30] [main/INFO]: Loading Noisium.
+[00:39:30] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[00:39:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:39:33] [main/INFO]: Loaded 1407 recipes
+[00:39:33] [main/INFO]: Loaded 1520 advancements
+[00:39:33] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[00:39:33] [Server thread/INFO]: Loading properties
+[00:39:33] [Server thread/INFO]: Default game type: SURVIVAL
+[00:39:33] [Server thread/INFO]: Generating keypair
+[00:39:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:39:33] [Server thread/INFO]: Using epoll channel type
+[00:39:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:39:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:39:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:39:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:39:33] [Server thread/INFO]: Preparing level "world"
+[00:39:33] [Server thread/INFO]: Enforcing safe world random access
+[00:39:34] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 347.0 ms
+[00:39:34] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[00:39:34] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 13.46 ms
+[00:39:34] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.700 ms
+[00:39:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:39:36] [c2me-worker-2/INFO]: Preparing spawn area: 0%
+[00:39:36] [c2me-worker-2/INFO]: Preparing spawn area: 0%
+[00:39:36] [c2me-worker-2/INFO]: Preparing spawn area: 0%
+[00:39:36] [c2me-worker-2/INFO]: Preparing spawn area: 0%
+[00:39:36] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[00:39:37] [Server thread/INFO]: Preparing spawn area: 97%
+[00:39:37] [Server thread/INFO]: Time elapsed: 2543 ms
+[00:39:37] [Server thread/INFO]: Done (3.507s)! For help, type "help"
+[00:40:11] [Server thread/INFO]: Il_Duko_lI[/127.111.238.159:59705] logged in with entity id 3 at (221.23521519617177, 70.0, -1285.7893365771706)
+[00:40:11] [Server thread/INFO]: Il_Duko_lI joined the game
+[00:40:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2021ms or 40 ticks behind
+[00:40:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3757ms or 75 ticks behind
+[00:40:57] [Server thread/INFO]: Chimu723[/127.5.100.229:47907] logged in with entity id 873 at (224.69999998807907, 69.0, -1283.300000011921)
+[00:40:57] [Server thread/INFO]: Chimu723 joined the game
+[00:41:44] [Server thread/INFO]: andrxs[/127.160.189.71:49955] logged in with entity id 1093 at (1.5, 70.0, 5.5)
+[00:41:44] [Server thread/INFO]: andrxs joined the game
+[00:42:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2004ms or 40 ticks behind
+[00:47:17] [Server thread/INFO]: andrxs has made the advancement [Acquire Hardware]
+[00:48:32] [Server thread/INFO]: andrxs has made the advancement [Isn't It Iron Pick]
