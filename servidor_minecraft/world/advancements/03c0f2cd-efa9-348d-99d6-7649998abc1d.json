@@ -7,18 +7,23 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-07-23 02:14:24 +0000",
       "minecraft:beach": "2025-07-23 02:11:46 +0000",
       "minecraft:stony_peaks": "2025-07-23 02:15:32 +0000",
       "minecraft:forest": "2025-07-23 02:15:19 +0000",
-      "minecraft:deep_dark": "2025-07-23 02:30:34 +0000",
       "minecraft:sparse_jungle": "2025-07-23 01:58:21 +0000",
-      "minecraft:jungle": "2025-07-23 02:14:49 +0000",
+      "minecraft:deep_ocean": "2025-07-25 00:53:34 +0000",
       "minecraft:river": "2025-07-23 02:13:11 +0000",
+      "minecraft:lukewarm_ocean": "2025-07-25 00:46:15 +0000",
       "minecraft:stony_shore": "2025-07-23 02:11:47 +0000",
       "minecraft:dripstone_caves": "2025-07-23 02:16:45 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-23 02:14:24 +0000",
+      "minecraft:deep_dark": "2025-07-23 02:30:34 +0000",
+      "minecraft:jungle": "2025-07-23 02:14:49 +0000",
+      "minecraft:ocean": "2025-07-25 00:52:36 +0000",
+      "minecraft:birch_forest": "2025-07-25 00:51:55 +0000",
       "minecraft:savanna": "2025-07-23 02:10:59 +0000",
-      "minecraft:plains": "2025-07-23 02:02:03 +0000"
+      "minecraft:plains": "2025-07-23 02:02:03 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-07-25 00:54:26 +0000"
     },
     "done": false
   },
