@@ -1,0 +1,131 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 8/24/25 2:07 AM
+Description: Exception getting block type in world
+
+java.lang.RuntimeException: Already decorating!!
+	at JinRyuu.DragonBC.common.Worlds.BiomeDecoratorDBC.func_150512_a(BiomeDecoratorDBC.java:83)
+	at net.minecraft.world.biome.BiomeGenBase.func_76728_a(BiomeGenBase.java:339)
+	at JinRyuu.DragonBC.common.Worlds.x1BiomeGenOW2.func_76728_a(x1BiomeGenOW2.java:96)
+	at JinRyuu.DragonBC.common.Worlds.x1ChunkProviderOW.func_73153_a(x1ChunkProviderOW.java:516)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1040)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+	at net.minecraft.world.World.func_147439_a(World.java:345)
+	at net.minecraft.world.World.func_147437_c(World.java:365)
+	at JinRyuu.DragonBC.common.m.WorldGenMahagonyTree.buildBlock(WorldGenMahagonyTree.java:956)
+	at JinRyuu.DragonBC.common.m.WorldGenMahagonyTree.generateTreeOneBranchFour(WorldGenMahagonyTree.java:500)
+	at JinRyuu.DragonBC.common.m.WorldGenMahagonyTree.func_76484_a(WorldGenMahagonyTree.java:108)
+	at JinRyuu.DragonBC.common.Worlds.BiomeDecoratorDBC.func_150513_a(BiomeDecoratorDBC.java:135)
+	at JinRyuu.DragonBC.common.Worlds.BiomeDecoratorDBC.func_150512_a(BiomeDecoratorDBC.java:91)
+	at net.minecraft.world.biome.BiomeGenBase.func_76728_a(BiomeGenBase.java:339)
+	at JinRyuu.DragonBC.common.Worlds.x1BiomeGenOW2.func_76728_a(x1BiomeGenOW2.java:96)
+	at JinRyuu.DragonBC.common.Worlds.x1ChunkProviderOW.func_73153_a(x1ChunkProviderOW.java:516)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:313)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:183)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:625)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at JinRyuu.DragonBC.common.Worlds.BiomeDecoratorDBC.func_150512_a(BiomeDecoratorDBC.java:83)
+	at net.minecraft.world.biome.BiomeGenBase.func_76728_a(BiomeGenBase.java:339)
+	at JinRyuu.DragonBC.common.Worlds.x1BiomeGenOW2.func_76728_a(x1BiomeGenOW2.java:96)
+	at JinRyuu.DragonBC.common.Worlds.x1ChunkProviderOW.func_73153_a(x1ChunkProviderOW.java:516)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1040)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (274,24,-2769), Chunk: (at 2,1,15 in 17,-174; contains blocks 272,0,-2784 to 287,255,-2769), Region: (0,-6; contains chunks 0,-192 to 31,-161, blocks 0,0,-3072 to 511,255,-2561)
+Stacktrace:
+	at net.minecraft.world.World.func_147439_a(World.java:345)
+	at net.minecraft.world.World.func_147437_c(World.java:365)
+	at JinRyuu.DragonBC.common.m.WorldGenMahagonyTree.buildBlock(WorldGenMahagonyTree.java:956)
+	at JinRyuu.DragonBC.common.m.WorldGenMahagonyTree.generateTreeOneBranchFour(WorldGenMahagonyTree.java:500)
+	at JinRyuu.DragonBC.common.m.WorldGenMahagonyTree.func_76484_a(WorldGenMahagonyTree.java:108)
+	at JinRyuu.DragonBC.common.Worlds.BiomeDecoratorDBC.func_150513_a(BiomeDecoratorDBC.java:135)
+	at JinRyuu.DragonBC.common.Worlds.BiomeDecoratorDBC.func_150512_a(BiomeDecoratorDBC.java:91)
+	at net.minecraft.world.biome.BiomeGenBase.func_76728_a(BiomeGenBase.java:339)
+	at JinRyuu.DragonBC.common.Worlds.x1BiomeGenOW2.func_76728_a(x1BiomeGenOW2.java:96)
+	at JinRyuu.DragonBC.common.Worlds.x1ChunkProviderOW.func_73153_a(x1ChunkProviderOW.java:516)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:279)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1045)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:190)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:131)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:101)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:199)
+	at net.minecraft.world.World.func_72964_e(World.java:419)
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:313)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:183)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 2 total; [EntityPlayerMP['Il_Duko_lI'/19235, l='world', x=71.35, y=97.08, z=-2496.89], EntityPlayerMP['andrxs'/258651, l='world', x=89.20, y=87.10, z=-1749.91]]
+	Chunk stats: ServerChunkCache: 2611 Drop: 0
+	Level seed: 4676171268210301855
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (0,0,0), Chunk: (at 0,0,0 in 0,0; contains blocks 0,0,0 to 15,255,15), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 0 game time, 0 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:625)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:334)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:547)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:427)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 6.8.0-1030-azure
+	Java Version: 1.8.0_452, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 1059396600 bytes (1010 MB) / 2600992768 bytes (2480 MB) up to 9544663040 bytes (9102 MB)
+	JVM Flags: 2 total; -Xms2G -Xmx10G
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 1, tallocated: 14
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1614 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UCHIJAAAA	Forge{10.13.4.1614} [Minecraft Forge] (forge-1.7.10-10.13.4.1614-1.7.10-universal.jar) 
+	UCHIJAAAA	jinryuujrmcore{1.3.51} [JinRyuu's JRMCore] (JRMCore-v1.3.51.jar) 
+	UCHIJAAAA	jinryuudragonblockc{1.4.85} [Dragon Block C] (DragonBlockC-v1.4.85.jar) 
+	UCHIJAAAA	jinryuubetterrenderaddon{1.6.52} [JinRyuu's Better Render Addon] (JBRA-Client-v1.6.52.jar) 
+	UCHIJAAAA	jinryuuhdskinsextended{1.3.1} [JinRyuu's HD Skins Extended] (JinRyuu's-HDSkins-Mod-1.7.10-v1.3.1.jar) 
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 2 / 999999; [EntityPlayerMP['Il_Duko_lI'/19235, l='world', x=71.35, y=97.08, z=-2496.89], EntityPlayerMP['andrxs'/258651, l='world', x=89.20, y=87.10, z=-1749.91]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
